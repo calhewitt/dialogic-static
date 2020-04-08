@@ -1,0 +1,34 @@
+---
+layout: generalpage
+title: Home
+---
+
+
+<div class = "section-title sttop">ABOUT THIS WEBSITE</div>
+
+<div id = "about-text">
+<p>About 2400 years ago Plato internalised the debating voices he heard around him in Athens and invented the philosophical dialogue. We grateful heirs to his dialectical way of thinking have turned those voices inside out. An increasingly plausible Socrates, Dr. Soderholm has been at the centre of this emerging web of intellectual activity as he attempts to play the ancient roles of midwife, gadfly, and torpedo fish.
+<p><em>Dialogic Imaginations</em> is a work-in-progress guided by the spirit of Ralph Waldo Emerson: “All life is an experiment. The more experiments you make the better.”</p>
+</div>
+
+
+<img src = "/static/group.jpg" width="100%">
+
+<div class = "section-title" style = "margin-bottom: 20px">New Dialogues</div>
+
+<div id = "dialogues">
+
+
+{% for post in site.posts limit:15 %}
+<a href = "{{ post.url }}">
+<div class = "dialogue-thumb">
+  <div class = "dt-title">{{ post.title }}</div>
+  <div class = "dt-authors">{{ post.authors }}</div>
+  <div class = "dt-teaser">{{ post.excerpt }}</div>
+
+</div>
+</a>
+{% endfor %}
+
+
+</div>

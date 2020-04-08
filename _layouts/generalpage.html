@@ -1,0 +1,133 @@
+---
+---
+
+
+<!DOCTYPE html>
+
+<title>Dialogic Imaginations</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<link rel="shortcut icon" href="/static/favicon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="/static/keypress.js"></script>
+
+
+<meta name="description" content="About 2400 years ago Plato internalised the debating voices he heard around him in Athens and invented the philosophical dialogue. We grateful heirs to his dialectical way of thinking have turned those voices inside out. An increasingly plausible Socrates, Dr. Soderholm has been at the centre of this emerging web of intellectual activity as he attempts to play the ancient roles of midwife, gadfly, and torpedo fish." />
+<meta property="og:title" content="Home" />
+<meta property="og:description" content="About 2400 years ago Plato internalised the debating voices he heard around him in Athens and invented the philosophical dialogue. We grateful heirs to his dialectical way of thinking have turned those voices inside out. An increasingly plausible Socrates, Dr. Soderholm has been at the centre of this emerging web of intellectual activity as he attempts to play the ancient roles of midwife, gadfly, and torpedo fish." />
+<meta property="og:image" content="http://www.dialogicimaginations.co.uk/static/hands-og.jpg" />
+<meta property="og:site_name" content="Dialogic Imaginations" />
+<meta property="og:url" content="http://dialogicimaginations.co.uk" />
+
+
+
+<link rel="stylesheet" media="screen and (max-width: 799px)" href="/static/mobile.css" />
+<link rel="stylesheet" media="screen and (min-width: 800px)" href="/static/main.css" />
+
+
+<div id = "navigation-bg"></div>
+<div id = "navigation-bg-mob">
+<div id = "navigation-bg-mob-inner"></div>
+</div>
+
+<div id = "navigation">
+<div id = "navtitle"><a href = "/">Dialogic Imaginations</a></div>
+<div id = "navtitle-mob"><a href = "/">Dialogic<br>Imaginations</a></div>
+
+<div id = "navlinks">
+<ul>
+<li><a href = "/">Home</a></li>
+<li><a href = "/authors/">Authors</a></li>
+<li><a href = "/index/">Dialogues</a></li>
+</ul>
+</div>
+</div>
+
+<div id = "outer-container">
+<div id = "container">
+{{content}}
+</div>
+</div>
+
+
+<div id = "soderwars-container">
+<iframe id = "soderwars-frame"></iframe>
+</div>
+
+
+<script>
+
+WebFont.load({
+   google: {
+     families: ['EB Garamond:regular,italic,bold', 'Comfortaa']
+   },
+   active: function() {
+     $(document).ready(function() {
+       $('#dialogues').masonry({
+         itemSelector: '.dialogue-thumb',
+         columnWidth: 400
+       });
+     })
+   }
+ });
+
+</script>
+
+
+<script>
+$(window).scroll(function() {
+
+    $("#navigation-bg").css("top", (($(window).scrollTop()/(-2)) - 10).toString() + "px")
+
+})
+</script>
+
+<script>
+var started = false;
+function soderbae() {
+  width = window.innerWidth
+  height = window.innerHeight
+  _top = Math.floor(Math.random() * height);
+  left = Math.floor(Math.random() * width);
+  $("body").append("<img class = 'soderbae' src = '/static/SODERBAE.png' style = 'position: fixed; z-index: 10000; margin-top: -285px; margin-left: -208px; top: " + _top.toString() + "px; left: " + left.toString() +  "px;'>")
+}
+
+var listener = new window.keypress.Listener();
+listener.sequence_combo("s o d e r b a e s o d e r b a e s o d e r b a e", function() {
+  if (!started) {
+    var listener = new window.keypress.Listener();
+    listener.sequence_combo("s o d e r b a e", function() {
+      soderbae()
+    }, true);
+    soderbae()
+    started = true
+  }
+}, true);
+
+var listener = new window.keypress.Listener();
+listener.sequence_combo("s p i n", function() {
+  $(".soderbae").addClass("rotate")
+}, true);
+
+
+var listener = new window.keypress.Listener();
+listener.sequence_combo("s o d e r w a r s", function() {
+  $("#soderwars-container").fadeIn(function() {
+    $("#soderwars-frame").attr("src", "/static/soderwars/sulfurous/html/app.html?id=267017379&turbo=false&full-screen=true&aspect-x=4&aspect-y=3&resolution-x=&resolution-y=")
+  })
+}, true);
+
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106867076-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106867076-1');
+</script>
