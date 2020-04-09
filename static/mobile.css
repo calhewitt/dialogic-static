@@ -151,8 +151,8 @@ body {
   left: -10px;
   width: calc(100% + 20px);
   height: 220px;
-  filter: blur(2px);
-  background-image: url(/static/hands.jpg);
+  /*filter: blur(2px);*/
+  background-image: url(/static/hands-blur.jpg);
   background-position: center center;
   background-size: cover;
 }
