@@ -1,0 +1,54 @@
+---
+permalink: /edit/
+---
+
+<!DOCTYPE html>
+<!-- Include stylesheet -->
+<link href="https://cdn.quilljs.com/1.2.4/quill.snow.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!-- Create the editor container -->
+<div id="editor" style = "width: 800px; height: 400px; margin: 0 auto;">
+
+</div><br>
+<center>
+<button id = "save">Go</button><br><br>
+
+<textarea id = "output" style="width:800px; height: 400px"></textarea></center>
+
+<!-- Include the Quill library -->
+<script src="https://cdn.quilljs.com/1.2.4/quill.js"></script>
+
+<!-- Initialize Quill editor -->
+<script>
+var quill = new Quill('#editor', {
+modules: {
+  toolbar: [
+    [{ header: [1, 2, 3, false] }],
+    ['bold', 'italic', 'underline'],
+    ['blockquote'],
+    ['align']
+  ]
+},
+placeholder: 'Dialogue dialogue dialogue',
+theme: 'snow'  // or 'bubble'
+});
+
+// $(document).ready(function() {
+//   $("#save").click(function() {
+//     $.post("/edit/", {"save": "yes", "html": $("#editor").children().first().html(), "id": "{{d.id}}", csrfmiddlewaretoken: "{{ csrf_token }}"}, function(data) {
+//       alert(data)
+//     })
+//   })
+// })
+
+$(document).ready(function() {
+  $("#save").click(function() {
+    $("#output").text($("#editor").children().first().html())
+  })
+})
+
+
+
+</script>
