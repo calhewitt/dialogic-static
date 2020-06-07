@@ -10,7 +10,9 @@ permalink: /all-dialogues/
 <div id = "index-dialogues">
 
   {% for post in site.posts %}
+  {% unless post.exclude %}
   <p><a href = "{{ post.url }}"><strong>{{ post.title }}</strong> ({{ post.date | date: "%B %Y" }}) -- {{ post.authors }}</a></p>
+  {% endunless %}
   {% endfor %}
 
 </div>
