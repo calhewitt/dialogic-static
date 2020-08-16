@@ -91,7 +91,6 @@ $(window).scroll(function() {
 </script>
 
 <script>
-var started = false;
 function soderbae() {
   width = window.innerWidth
   height = window.innerHeight
@@ -100,17 +99,12 @@ function soderbae() {
   $("body").append("<img class = 'soderbae' src = '/static/SODERBAE.png' style = 'position: fixed; z-index: 10000; margin-top: -285px; margin-left: -208px; top: " + _top.toString() + "px; left: " + left.toString() +  "px;'>")
 }
 
+
 var listener = new window.keypress.Listener();
-listener.sequence_combo("s o d e r b a e s o d e r b a e s o d e r b a e", function() {
-  if (!started) {
-    var listener = new window.keypress.Listener();
-    listener.sequence_combo("s o d e r b a e", function() {
-      soderbae()
-    }, true);
-    soderbae()
-    started = true
-  }
+listener.sequence_combo("s o d e r b a e", function() {
+  soderbae()
 }, true);
+
 
 var listener = new window.keypress.Listener();
 listener.sequence_combo("s p i n", function() {
