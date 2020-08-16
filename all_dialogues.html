@@ -11,7 +11,7 @@ permalink: /all-dialogues/
 
   {% for post in site.posts %}
   {% unless post.exclude %}
-  <p><a href = "{{ post.url }}"><strong>{{ post.title }}</strong> ({{ post.date | date: "%B %Y" }}) -- {{ post.authors }}</a></p>
+  <p><a href = "{{ post.url }}"><strong>{{ post.title }}</strong> ({{ post.date | date: "%B %Y" }}) &mdash; {{ post.authors }}</a></p>
   {% endunless %}
   {% endfor %}
 

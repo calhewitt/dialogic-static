@@ -37,7 +37,7 @@ permalink: /authors/
 
 
   <div class = "author">
-  <div style = "background-image: url(/media/dialogue_authors/bisp-baldwin.jpg); float: left" class = "author-image"></div>
+  <div style = "background-image: url(/media/dialogue_authors/bisp-baldwin.jpg); float: left" class = "author-image" id = "bruns"></div>
   <div class = "author-text" style = "float: right"><strong><big><a name = "5">Bruno Lindan</a></big></strong>&nbsp;is, as of 2019, studying Mathematics at King's College, Cambridge.</div>
   </div>
 
@@ -148,8 +148,6 @@ permalink: /authors/
   <div class = "author-text" style = "float: left"><strong><big><a name = "24">Charles Noble</a></big></strong>&nbsp;is 18 years old and hopes to read History at University once he has completed his studies at the Langton. In between studying Maths, German and History, Charles enjoys provoking debates in lessons and challenging the views of his peers. When he’s not studying he can be found on the golf-course or playing music.</div>
   </div>
 
-
-
   <div class = "author">
   <div style = "background-image: url(/media/dialogue_authors/image1-17.jpeg); float: left" class = "author-image"></div>
   <div class = "author-text" style = "float: right"><strong><big><a name = "25">Leandra Bernstein</a></big></strong>&nbsp;is a journalist in Washington, D.C. covering the daily revolutions of the widening gyre. A student of chance, she has no plans to graduate. She is scrappy, optimistic, and the owner of an impressive closet of skeletons.</div>
@@ -166,6 +164,26 @@ permalink: /authors/
   </div>
 
 
-
-
 </div>
+
+
+
+<script>
+// Bruns
+var bcount = 0;
+
+$("#bruns").click(function () {
+  bcount++;
+
+  if (bcount == 10) {
+    $("#bruns").css("transition", "20s")
+    $("#bruns").css("background-image", "url(/media/dialogue_authors/bips-bright.jpg)");
+    $("#bruns").css("width", "2000px")
+    $("#bruns").css("height", "2000px")
+    $("#bruns").css("border-radius", "1000px")
+
+
+  }
+})
+
+</script>
