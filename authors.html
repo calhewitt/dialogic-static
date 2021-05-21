@@ -11,15 +11,17 @@ permalink: /authors/
 
 {% for author in site.data.authors %}
 
+{% unless author.exclude %}
+
 {% capture lr %}{% cycle 'left', 'right' %}{% endcapture %}
 {% capture rl %}{% cycle 'right', 'left' %}{% endcapture %}
 
   <div class = "author">
-  <div style = "background-image: url({{author.picture}}); float: {{lr}}" class = "author-image"></div>
+  <div style = "background-image: url(/media/dialogue_authors/{{author.picture}}); float: {{lr}}" class = "author-image" id = "{{author.image_id}}"></div>
   <div class = "author-text" style = "float: {{rl}}"><strong><big><a name = "{{author.name}}">{{author.name}}</a></big></strong> {{author.bio}}</div>
   </div>
 
-
+{% endunless %}
 {% endfor %}
 
 </div>

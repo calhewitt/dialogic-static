@@ -1,99 +1,105 @@
 - name: James Soderholm
-  picture: /media/dialogue_authors/kids2.jpg
+  picture: kids2.jpg
   bio: 'took his Ph.D. in British Literature from the University of Virginia. Dr. Soderholm has published four books, including <a href =  "https://www.amazon.co.uk/Platonic-Occasions-Dialogues-Literature-Culture/dp/9176350002">Platonic Occasions: Dialogues on Art, Literature and Culture</a> (with Richard Begam, Stockholm University Press, 2015).'
 
 - name: Cal Hewitt
-  picture: /media/dialogue_authors/somebeans.jpg
+  picture: somebeans.jpg
   bio: is a recent student of the Langton and the author of this website. He is now reading Physics at Pembroke College, Cambridge.
 
 - name: Drishti Rai
-  picture: /media/dialogue_authors/17333159_1227827637336774_8925787024363880448_n.jpg
+  picture: 17333159_1227827637336774_8925787024363880448_n.jpg
   bio: 'is an 18 year old with a passion for economics and academia. She plans to study the former at university, having completed A levels in maths, further maths, physics, and economics. She also runs a blog: <a href = "http://www.thedismalstudy.wordpress.com">thedismalstudy.wordpress.com</a>'
 
 - name: Moses May Hobbs
-  picture: /media/dialogue_authors/bio_photo_trialogues.jpg
+  picture: bio_photo_trialogues.jpg
   bio: "is a Langton student intending to study the history of art and has a consuming love of philosophy and the arts. Enamoured with absurdist literature and surrealism, Mo’s Socratic contributions hail from his preoccupations with aesthetics, truth, and philosophical freedom."
 
 - name: Bruno Lindan
-  picture: /media/dialogue_authors/bisp-baldwin.jpg
+  picture: bisp-baldwin.jpg
   bio: "is, as of 2019, studying Mathematics at King's College, Cambridge."
+  image_id: bruns
 
 - name: Melissa Orr
-  picture: /media/dialogue_authors/IMG_4820.jpg
+  picture: IMG_4820.jpg
   bio: "studied A-levels in Philosophy, Fine Art, and Mathematics at the Langton. After completing a gap year of work experience and travelling she hopes to read Philosophy, Politics, and Economics at university."
 
 - name: Adam Nell-Millard
-  picture: /media/dialogue_authors/image1.jpg
+  picture: image1.jpg
   bio: "is 18, and currently studying History, Philosophy, and Mathematics. He hopes to continue studying Philosophy in the future. He is particularly interested in topics relating to human nature and concerned with the human relationship to death and religious belief."
 
 - name: Rose Pettengell
-  picture: /media/dialogue_authors/Image.jpg
+  picture: Image.jpg
   bio: "is studying Paramedic Science but has a deep interest in English literature and history. She believes that Webster's Bosola is far more darkly interesting than Shakespeare's Hamlet."
 
 - name: Lily Begg
-  picture: /media/dialogue_authors/profile_picture.Begg.jpg
+  picture: profile_picture.Begg.jpg
   bio: "is a student of French and Italian who spends a lot of her time wondering whether the world is a good place or a bad place. She spends the rest of her free time doing things like growing plants and smashing the patriarchy."
 
 - name: Daniel Appiah
-  picture: /media/dialogue_authors/Screenshot_from_2017-12-20_15-13-04.png
+  picture: Screenshot_from_2017-12-20_15-13-04.png
   bio: "is an old Langtonian currently reading History and Politics at the University of Exeter. Dan's contemplation of speech acts and the philosophy of language yields no consolation, but the free and frank exchange of ideas is consolation enough. He continues to strive to achieve a Stoic ideal, and knows he will not."
 
 - name: Thomas Newton
-  picture: /media/dialogue_authors/headshot.jpg
+  picture: headshot.jpg
   bio: "is a passionate physicist -- following in the footsteps of fellow dialogue author, Cal Hewitt, with regards to command of the LUCID project -- who has a persistent interest in the theatrical arts. A desire to bridge the culture gap between the arts and sciences inspired his approach to his dialogue and is something  he hope to preserve when pursuing physics studies at university."
 
 - name: Kyle Blaus-Plissner
-  picture: /media/dialogue_authors/plissner.jpg
+  picture: plissner.jpg
   bio: "enjoys wordplay in all forms, spoken or written. A student of The Great Silence, he resides in Colorado, United States, where he often veers off of the established trails of mountains and conversations."
 
 - name: M.E. Rolle
-  picture: /media/dialogue_authors/M_E_Rolle.photo.png
+  picture: M_E_Rolle.photo.png
   bio: "is a PhD candidate in Creative Writing at the University of Surrey. When she isn't staring hopelessly at a computer screen, she takes the train into London and wanders the city, taking photos."
 
 - name: Ali-Reza Omidvar
-  picture: /media/dialogue_authors/alireza_uFZOfqS.jpg
+  picture: alireza_uFZOfqS.jpg
   bio: "is a Langton student who is obsessed with poetry, mysticism and Philosophy. After his migration to the UK and his later conversion to Christianity, he wrote a book comprising an analysis on the religio-political differences between eastern and western countries and some mystical poems. His plan is to first study Philosophy and then continue his further study in law."
 
 - name: Josie Orr
-  picture: /media/dialogue_authors/orr.jpg
+  picture: orr.jpg
   bio: "is 17 and currently studies A-Level Politics, Maths, and Fine Art at the Langton. After finding an interest in post-truth she completed an EPQ on the topic, and followed up by writing this dialogue."
 
 - name: Grace Clover
-  picture: /media/dialogue_authors/grace.jpg
+  picture: grace.jpg
   bio: "is an ex-langtonian who studied English, History and German A-Level and has gone on to study joint honours History and German Literature at Wadham College Oxford as of Autumn 2020."
 
 - name: Ophelia Gregory
-  picture: /media/dialogue_authors/ophelia.jpg
+  picture: ophelia.jpg
   bio: "is a writer of dialogues that are so outrageous they cannot be published. A controversial figure since pre-school she now studies the Classics, German and English. In her spare time, she also has a love for playing the Double Bass (badly) and generally being regarded as the devil incarnate."
 
 - name: Zoë Abrams
-  picture: /media/dialogue_authors/ZoeA.JPG
+  picture: ZoeA.JPG
   bio: "is 16 years old, and currently studying History, Politics, English and Spanish at the Langton. Alongside a keen interest in leftist political theory and sociology, Zoë enjoys acting, singing,  playing classical guitar, and has been diarying for three years. She has two cats and has been known to cackle like a witch from time to time."
 
 - name: Alice Abrams
-  picture: /media/dialogue_authors/Alice_HK8xhkb.jpg
+  picture: Alice_HK8xhkb.jpg
   bio: "is a student at the Langton, studying Philosophy, History, English and Spanish. She enjoys debating and all forms of writing, but particularly poems and letters. When not enjoying these pursuits, she is often found conversing with her cat, Mini, who she firmly believes to be a human trapped in feline form."
 
 - name: Charles Noble
-  picture: /media/dialogue_authors/Charles.jpg
+  picture: Charles.jpg
   bio: "is 18 years old and hopes to read History at University once he has completed his studies at the Langton. In between studying Maths, German and History, Charles enjoys provoking debates in lessons and challenging the views of his peers. When he’s not studying he can be found on the golf-course or playing music."
 
 - name: Leandra Bernstein
-  picture: /media/dialogue_authors/image1-17.jpeg
+  picture: image1-17.jpeg
   bio: "is a journalist in Washington, D.C. covering the daily revolutions of the widening gyre. A student of chance, she has no plans to graduate. She is scrappy, optimistic, and the owner of an impressive closet of skeletons."
 
 - name: Amelia Liddell
-  picture: /media/dialogue_authors/amelia.png
+  picture: amelia.png
   bio: "is no one thing, but if pushed, she'd say \"veterinarian\". She fancies herself a bit of everything, as she has an insatiable fear of missing out. She is soon to move to a tiny island in the middle of the Arabian Sea in search of ancient reptiles."
 
 - name: Lyall Rosgill
-  picture: /media/dialogue_authors/lyall.png
+  picture: lyall.png
   bio: "is an avid nonconformist. In his free time he enjoys wartime poetry and listening to the odd bit of John Coltrane."
 
+- name: Simone Westblom
+  picture: simone.jpg
+  bio: "is pursuing a Master’s Degree in Literature at Stockholm University. She is a curious and questioning person who loves culture in all its different forms."
+  exclude: true
+
 - name: Melkon Charchoglyan
-  picture: /media/dialogue_authors/melkon.jpg
+  picture: melkon.jpg
   bio: "is a journalist, writer and photographer from Armenia. After graduating with a degree in Classics from the University of St Andrews, he went on to become a travel writer and editor. Now he's the 2021 Helen Deutsch Fellow at Boston University's School of Creative Writing, where he writes and teaches fiction, as well as dabbling in Russian literary translation."
 
 - name: Henry Baxter
-  picture: /media/dialogue_authors/baxter.jpg
+  picture: baxter.jpg
   bio: "lives in Cambridge, where he is now reading for an MPhil in Early Modern Literature."
