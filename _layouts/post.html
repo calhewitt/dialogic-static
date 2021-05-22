@@ -7,7 +7,7 @@ layout: parent
   <h1>{{page.longtitle}}</h1>
   <p><br></p>
   <!--<h3 class="ql-align-center">{{page.between}}</h3><p><br></p>-->
-  <h2 class="ql-align-center">{{page.authors}}</h2>
+  <h2 class="ql-align-center" id = "authors-head">{{page.authors}}</h2>
 
 </div>
 
@@ -16,3 +16,24 @@ layout: parent
 </div>
 
 </div>
+
+
+<script>
+
+
+/// HYPERLINK AUTHOR BIOS
+
+allAuthors = "{% for author in site.data.authors %}{{author.name}};{%endfor%}"
+allAuthors = allAuthors.substring(0, allAuthors.length - 1).split(";")
+
+authText = $("#authors-head").html()
+
+$(allAuthors).each(function() {
+  var author = this;
+  var authordc = author.replaceAll(" ", "").toLowerCase()
+  authText = authText.replace(this, "<a href = '/authors/#" + authordc + "'>"+this+"</a>")
+})
+
+$("#authors-head").html(authText)
+
+</script>
