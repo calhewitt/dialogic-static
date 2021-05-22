@@ -18,8 +18,9 @@ permalink: /authors/
 {% capture rl %}{% cycle 'right', 'left' %}{% endcapture %}
 
   <div class = "author">
-  <div style = "background-image: url(/media/dialogue_authors/{{author.picture}}); float: {{lr}}" class = "author-image" id = "{{author.image_id}}"></div>
-  <div class = "author-text" style = "float: {{rl}}"><strong><big><a name = "{{ author.name | remove: " " | downcase}}">{{author.name}}</a></big></strong> {{author.bio}}</div>
+  <a name = "{{ author.name | remove: " " | downcase}}">
+  <div style = "background-image: url(/media/dialogue_authors/{{author.picture}}); float: {{lr}}" class = "author-image" id = "{{author.image_id}}"></div></a>
+  <div class = "author-text" style = "float: {{rl}}"><strong><big>{{author.name}}</big></strong> {{author.bio}}</div>
   </div>
 
 {% endunless %}
