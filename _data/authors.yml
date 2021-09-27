@@ -1,6 +1,6 @@
 - name: James Soderholm
   picture: kids2.jpg
-  bio: 'took his Ph.D. in British Literature from the University of Virginia. Dr. Soderholm has published four books, including <a href =  "https://www.amazon.co.uk/Platonic-Occasions-Dialogues-Literature-Culture/dp/9176350002">Platonic Occasions: Dialogues on Art, Literature and Culture</a> (with Richard Begam, Stockholm University Press, 2015).'
+  bio: "took his Ph.D. in British Literature from the University of Virginia. Dr. Soderholm has published four books, including <a href = 'https://www.amazon.co.uk/Platonic-Occasions-Dialogues-Literature-Culture/dp/9176350002' target='_blank'><i>Platonic Occasions: Dialogues on Art, Literature and Culture</i></a> (with Richard Begam, Stockholm University Press, 2015). He has recently published his first children’s book, <a href = 'https://www.amazon.co.uk/Prince-Hamlet-James-P-S%C3%B6derholm/dp/1838127887/' target='_blank'><i>Prince Hamlet</i></a>."
 
 - name: Cal Hewitt
   picture: somebeans.jpg
