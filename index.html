@@ -71,18 +71,19 @@ $("#authors").hide()
 $("#authors-link").css("color", gray)
 
 $("#dialogues-link").click(function() {
-  $("#authors").fadeOut(function() {
-    $("#dialogues").fadeIn()
-  })
+  $("#authors").hide()
+  $("#dialogues").show()
+  window.dispatchEvent(new Event('resize'));
+
 
   $("#authors-link").css("color", gray)
   $("#dialogues-link").css("color", "black")
 })
 
 $("#authors-link").click(function() {
-  $("#dialogues").fadeOut(function() {
-    $("#authors").fadeIn()
-  })
+  $("#dialogues").hide()
+  $("#authors").show()
+
 
   $("#authors-link").css("color", "black")
   $("#dialogues-link").css("color", gray)
