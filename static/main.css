@@ -193,7 +193,9 @@ a {
   font-size: 16pt;
   padding: 5px;
   border: 1px solid #bbbbbb;
+  text-decoration: none;
 }
+
 
 .dialogue-thumb:hover {
   background: black;

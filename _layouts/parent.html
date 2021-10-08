@@ -59,16 +59,20 @@
 
 <script>
 
+function reMasonry() {
+  $('#dialogues').masonry({ // this works bc it's an empty selector if the page doesn't have that div
+    itemSelector: '.dialogue-thumb',
+    columnWidth: 400
+  });
+}
+
 WebFont.load({
    google: {
      families: ['EB Garamond:regular,italic,bold', 'Comfortaa']
    },
    active: function() {
      $(document).ready(function() {
-       $('#dialogues').masonry({
-         itemSelector: '.dialogue-thumb',
-         columnWidth: 400
-       });
+       reMasonry();
      })
    }
  });
