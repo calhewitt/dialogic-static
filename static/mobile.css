@@ -197,7 +197,7 @@ a {
   margin: 0 auto;
 }
 .dialogue-thumb {
-  width: calc(100% - 15px);
+  width: calc(100% - 12px);
   background: white;
   font-family: "EB Garamond";
   padding: 5px;
