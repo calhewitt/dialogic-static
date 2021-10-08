@@ -32,7 +32,7 @@ body {
 .section-title {
   font-family: comfortaa;
   width: 100%;
-  text-align: left;
+  text-align: center;
   margin-top: 20px;
   text-transform: uppercase;
   font-size: 24px;
@@ -48,9 +48,12 @@ body {
   height: 180px;
 }
 #navtitle-mob {
-  margin-top: 20px;
+  margin-top: 40px;
   padding-left: 10px;
   font-size: 36px;
+  height: 72px;
+  width: 100%;
+  text-align: center;
   text-transform: uppercase;
   font-family: comfortaa;
 }
@@ -87,7 +90,7 @@ body {
 }
 #outer-container {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 0px;
   right: 0px;
   background-color: white;
@@ -98,7 +101,6 @@ body {
 }
 #container {
 
-  padding-top: 50px;
 
 
   width: 100%;
@@ -106,7 +108,7 @@ body {
 }
 #cover {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 80px;
   font-family: 'EB Garamond'
 }
@@ -161,6 +163,7 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: justify;
+  margin-bottom: 50px;
 }
 a {
   color: black;
