@@ -48,8 +48,9 @@ body {
   height: 180px;
 }
 #navtitle-mob {
-  margin-top: 40px;
-  padding-left: 10px;
+  position: absolute;
+  top: 39px;
+  left: 0px;
   font-size: 36px;
   height: 72px;
   width: 100%;
