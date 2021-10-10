@@ -25,6 +25,12 @@ pre {
     to {transform: rotate(360deg);}
 }
 
+#dialogues-link, #authors-link {
+  text-decoration: none;
+}
+#dialogues-link:hover, #authors-link:hover {
+  text-decoration: underline;
+}
 
 
 .section-title {

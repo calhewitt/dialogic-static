@@ -1,3 +1,4 @@
+
 ::selection {
   background: black;
   color: white;
@@ -265,4 +266,12 @@ a {
 
 #soderwars-frame {
   display: none;
+}
+
+
+#dialogues-link, #authors-link {
+  text-decoration: none;
+}
+#dialogues-link:hover, #authors-link:hover {
+  text-decoration: none;
 }
