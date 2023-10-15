@@ -6,70 +6,46 @@
   picture: cal2.jpg
   bio: is researching his Ph.D. in Neutrino Physics. Sometimes, he gets distracted.
 
-- name: Drishti Rai
-  picture: 17333159_1227827637336774_8925787024363880448_n.jpg
-  bio: 'is an 18 year old with a passion for economics and academia. She plans to study the former at university, having completed A levels in maths, further maths, physics, and economics. She also runs a blog: <a href = "http://www.thedismalstudy.wordpress.com">thedismalstudy.wordpress.com</a>'
+- name: Kyle Blaus-Plissner
+  picture: plissner.jpg
+  bio: "enjoys wordplay in all forms, spoken or written. A student of The Great Silence, he resides in Colorado, United States, where he often veers off of the established trails of mountains and conversations."
 
 - name: Moses May-Hobbs
   picture: mose_recumbent.jpg
   bio: "lives in Marseille, where he is getting stronger and reading sonnets."
+
+- name: Henry Baxter
+  picture: baxter.jpg
+  bio: "lives in Cambridge, where he is now reading for an MPhil in Early Modern Literature."
+
+- name: Melkon Charchoglyan
+  picture: melkon.jpg
+  bio: "is a journalist, writer and photographer from Armenia. After graduating with a degree in Classics from the University of St Andrews, he went on to become a travel writer and editor. Now he's the 2021 Helen Deutsch Fellow at Boston University's School of Creative Writing, where he writes and teaches fiction, as well as dabbling in Russian literary translation."
+
+- name: Grace Clover
+  picture: grace.jpg
+  bio: "is an ex-langtonian who studied English, History and German A-Level and has gone on to study joint honours History and German Literature at Wadham College Oxford as of Autumn 2020."
 
 - name: Bruno Lindan
   picture: bisp-baldwin.jpg
   bio: "is, as of 2019, studying Mathematics at King's College, Cambridge."
   image_id: bruns
 
-- name: Melissa Orr
-  picture: IMG_4820.jpg
-  bio: "studied A-levels in Philosophy, Fine Art, and Mathematics at the Langton. After completing a gap year of work experience and travelling she hopes to read Philosophy, Politics, and Economics at university."
+- name: Lyall Rosgill
+  picture: lyall.png
+  bio: "is an avid nonconformist. In his free time he enjoys wartime poetry and listening to the odd bit of John Coltrane."
 
-- name: Adam Nell-Millard
-  picture: image1.jpg
-  bio: "is 18, and currently studying History, Philosophy, and Mathematics. He hopes to continue studying Philosophy in the future. He is particularly interested in topics relating to human nature and concerned with the human relationship to death and religious belief."
+- name: Amelia Liddell
+  picture: amelia.png
+  bio: "is no one thing, but if pushed, she'd say \"veterinarian\". She fancies herself a bit of everything, as she has an insatiable fear of missing out. She is soon to move to a tiny island in the middle of the Arabian Sea in search of ancient reptiles."
 
-- name: Rose Pettengell
-  picture: Image.jpg
-  bio: "is studying Paramedic Science but has a deep interest in English literature and history. She believes that Webster's Bosola is far more darkly interesting than Shakespeare's Hamlet."
+- name: Leandra Bernstein
+  picture: image1-17.jpeg
+  bio: "is a journalist in Washington, D.C. covering the daily revolutions of the widening gyre. A student of chance, she has no plans to graduate. She is scrappy, optimistic, and the owner of an impressive closet of skeletons."
 
-- name: Lily Begg
-  picture: profile_picture.Begg.jpg
-  bio: "is a student of French and Italian who spends a lot of her time wondering whether the world is a good place or a bad place. She spends the rest of her free time doing things like growing plants and smashing the patriarchy."
-
-- name: Daniel Appiah
-  picture: Screenshot_from_2017-12-20_15-13-04.png
-  bio: "is an old Langtonian currently reading History and Politics at the University of Exeter. Dan's contemplation of speech acts and the philosophy of language yields no consolation, but the free and frank exchange of ideas is consolation enough. He continues to strive to achieve a Stoic ideal, and knows he will not."
-
-- name: Thomas Newton
-  picture: headshot.jpg
-  bio: "is a passionate physicist -- following in the footsteps of fellow dialogue author, Cal Hewitt, with regards to command of the LUCID project -- who has a persistent interest in the theatrical arts. A desire to bridge the culture gap between the arts and sciences inspired his approach to his dialogue and is something  he hope to preserve when pursuing physics studies at university."
-
-- name: Kyle Blaus-Plissner
-  picture: plissner.jpg
-  bio: "enjoys wordplay in all forms, spoken or written. A student of The Great Silence, he resides in Colorado, United States, where he often veers off of the established trails of mountains and conversations."
-
-- name: M.E. Rolle
-  picture: M_E_Rolle.photo.png
-  bio: "is a PhD candidate in Creative Writing at the University of Surrey. When she isn't staring hopelessly at a computer screen, she takes the train into London and wanders the city, taking photos."
-
-- name: Ali-Reza Omidvar
-  picture: alireza_uFZOfqS.jpg
-  bio: "is a Langton student who is obsessed with poetry, mysticism and Philosophy. After his migration to the UK and his later conversion to Christianity, he wrote a book comprising an analysis on the religio-political differences between eastern and western countries and some mystical poems. His plan is to first study Philosophy and then continue his further study in law."
-
-- name: Josie Orr
-  picture: orr.jpg
-  bio: "is 17 and currently studies A-Level Politics, Maths, and Fine Art at the Langton. After finding an interest in post-truth she completed an EPQ on the topic, and followed up by writing this dialogue."
-
-- name: Grace Clover
-  picture: grace.jpg
-  bio: "is an ex-langtonian who studied English, History and German A-Level and has gone on to study joint honours History and German Literature at Wadham College Oxford as of Autumn 2020."
-
-- name: Ophelia Gregory
-  picture: ophelia.jpg
-  bio: "is a writer of dialogues that are so outrageous they cannot be published. A controversial figure since pre-school she now studies the Classics, German and English. In her spare time, she also has a love for playing the Double Bass (badly) and generally being regarded as the devil incarnate."
-
-- name: Joshua Gawley
-  picture: gawley.jpg
-  bio: is a Langton student currently studying A-levels in Maths, Further Maths, Physics and Computer Science. He has a passion for computer science and philosophy, hoping to read the former at university; and he is particularly obsessed with the possibilities of artificial intelligence and the search for a computational theory of everything.
+- name: Charles Noble
+  picture: Charles.jpg
+  bio: "is 18 years old and hopes to read History at University once he has completed his studies at the Langton. In between studying Maths, German and History, Charles enjoys provoking debates in lessons and challenging the views of his peers. When he’s not studying he can be found on the golf-course or playing music."
 
 - name: Zoë Abrams
   picture: ZoeA.JPG
@@ -79,31 +55,55 @@
   picture: Alice_HK8xhkb.jpg
   bio: "is a student at the Langton, studying Philosophy, History, English and Spanish. She enjoys debating and all forms of writing, but particularly poems and letters. When not enjoying these pursuits, she is often found conversing with her cat, Mini, who she firmly believes to be a human trapped in feline form."
 
-- name: Charles Noble
-  picture: Charles.jpg
-  bio: "is 18 years old and hopes to read History at University once he has completed his studies at the Langton. In between studying Maths, German and History, Charles enjoys provoking debates in lessons and challenging the views of his peers. When he’s not studying he can be found on the golf-course or playing music."
+- name: Ophelia Gregory
+  picture: ophelia.jpg
+  bio: "is a writer of dialogues that are so outrageous they cannot be published. A controversial figure since pre-school she now studies the Classics, German and English. In her spare time, she also has a love for playing the Double Bass (badly) and generally being regarded as the devil incarnate."
 
-- name: Leandra Bernstein
-  picture: image1-17.jpeg
-  bio: "is a journalist in Washington, D.C. covering the daily revolutions of the widening gyre. A student of chance, she has no plans to graduate. She is scrappy, optimistic, and the owner of an impressive closet of skeletons."
+- name: Joshua Gawley
+  picture: gawley.jpg
+  bio: is a Langton student currently studying A-levels in Maths, Further Maths, Physics and Computer Science. He has a passion for computer science and philosophy, hoping to read the former at university; and he is particularly obsessed with the possibilities of artificial intelligence and the search for a computational theory of everything.
 
-- name: Amelia Liddell
-  picture: amelia.png
-  bio: "is no one thing, but if pushed, she'd say \"veterinarian\". She fancies herself a bit of everything, as she has an insatiable fear of missing out. She is soon to move to a tiny island in the middle of the Arabian Sea in search of ancient reptiles."
+- name: Josie Orr
+  picture: orr.jpg
+  bio: "is 17 and currently studies A-Level Politics, Maths, and Fine Art at the Langton. After finding an interest in post-truth she completed an EPQ on the topic, and followed up by writing this dialogue."
 
-- name: Lyall Rosgill
-  picture: lyall.png
-  bio: "is an avid nonconformist. In his free time he enjoys wartime poetry and listening to the odd bit of John Coltrane."
+- name: Ali-Reza Omidvar
+  picture: alireza_uFZOfqS.jpg
+  bio: "is a Langton student who is obsessed with poetry, mysticism and Philosophy. After his migration to the UK and his later conversion to Christianity, he wrote a book comprising an analysis on the religio-political differences between eastern and western countries and some mystical poems. His plan is to first study Philosophy and then continue his further study in law."
+
+- name: Rose Pettengell
+  picture: Image.jpg
+  bio: "is studying Paramedic Science but has a deep interest in English literature and history. She believes that Webster's Bosola is far more darkly interesting than Shakespeare's Hamlet."
+
+- name: Lily Begg
+  picture: profile_picture.Begg.jpg
+  bio: "is a student of French and Italian who spends a lot of her time wondering whether the world is a good place or a bad place. She spends the rest of her free time doing things like growing plants and smashing the patriarchy."
+
+- name: Thomas Newton
+  picture: headshot.jpg
+  bio: "is a passionate physicist -- following in the footsteps of fellow dialogue author, Cal Hewitt, with regards to command of the LUCID project -- who has a persistent interest in the theatrical arts. A desire to bridge the culture gap between the arts and sciences inspired his approach to his dialogue and is something  he hope to preserve when pursuing physics studies at university."
+
+- name: M.E. Rolle
+  picture: M_E_Rolle.photo.png
+  bio: "is a PhD candidate in Creative Writing at the University of Surrey. When she isn't staring hopelessly at a computer screen, she takes the train into London and wanders the city, taking photos."
+
+- name: Daniel Appiah
+  picture: Screenshot_from_2017-12-20_15-13-04.png
+  bio: "is an old Langtonian currently reading History and Politics at the University of Exeter. Dan's contemplation of speech acts and the philosophy of language yields no consolation, but the free and frank exchange of ideas is consolation enough. He continues to strive to achieve a Stoic ideal, and knows he will not."
+
+- name: Adam Nell-Millard
+  picture: image1.jpg
+  bio: "is 18, and currently studying History, Philosophy, and Mathematics. He hopes to continue studying Philosophy in the future. He is particularly interested in topics relating to human nature and concerned with the human relationship to death and religious belief."
+
+- name: Melissa Orr
+  picture: IMG_4820.jpg
+  bio: "studied A-levels in Philosophy, Fine Art, and Mathematics at the Langton. After completing a gap year of work experience and travelling she hopes to read Philosophy, Politics, and Economics at university."
+
+- name: Drishti Rai
+  picture: 17333159_1227827637336774_8925787024363880448_n.jpg
+  bio: 'is an 18 year old with a passion for economics and academia. She plans to study the former at university, having completed A levels in maths, further maths, physics, and economics. She also runs a blog: <a href = "http://www.thedismalstudy.wordpress.com">thedismalstudy.wordpress.com</a>'
 
 - name: Simone Westblom
   picture: simone.jpg
   bio: "is pursuing a Master’s Degree in Literature at Stockholm University. She is a curious and questioning person who loves culture in all its different forms."
   exclude: true
-
-- name: Melkon Charchoglyan
-  picture: melkon.jpg
-  bio: "is a journalist, writer and photographer from Armenia. After graduating with a degree in Classics from the University of St Andrews, he went on to become a travel writer and editor. Now he's the 2021 Helen Deutsch Fellow at Boston University's School of Creative Writing, where he writes and teaches fiction, as well as dabbling in Russian literary translation."
-
-- name: Henry Baxter
-  picture: baxter.jpg
-  bio: "lives in Cambridge, where he is now reading for an MPhil in Early Modern Literature."
