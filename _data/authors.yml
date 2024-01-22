@@ -30,6 +30,7 @@
   picture: bisp-baldwin.jpg
   bio: "is, as of 2019, studying Mathematics at King's College, Cambridge."
   image_id: bruns
+  exclude: true
 
 - name: Lyall Rosgill
   picture: lyall.png
